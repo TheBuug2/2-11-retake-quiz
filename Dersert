@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+//declarartion
+void RandomDersert();
+
+int main() {
+
+	RandomDersert();
+
+}
+
+void RandomDersert() {
+	int num = rand() % 100;
+	if (num < 50)
+		cout << "cake" << endl;
+	else if (num < 80)
+		cout << "pie" << endl;
+	else
+		cout << "ice cream" << endl;
+
+}
