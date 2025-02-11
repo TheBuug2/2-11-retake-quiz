@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+bool isAppleOrBanana(string Bob);
+
+int main() {
+
+	cout << isAppleOrBanana("banana");
+
+}
+
+bool isAppleOrBanana(string Bob) {
+	if (Bob == "apple")
+		return true;
+	else if(Bob == "banana")
+		return false;
+}
