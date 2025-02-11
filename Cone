@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+float ConeVol(int radius, int height);
+
+int main() {
+
+	cout<<ConeVol( 2, 3);
+}
+
+float ConeVol(int radius, int height) {
+	return (3.14 * (radius * radius) *height /3);
+
+}
